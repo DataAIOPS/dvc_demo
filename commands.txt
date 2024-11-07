@@ -1,0 +1,10 @@
+# creating venv
+conda create -n dvc_vnev3 python==3.10 -y
+
+# Activate venv
+conda activate dvc_vnev3
+
+git init
+dvc init
+dvc add data.txt
+git add data.txt.dvc .gitignore
